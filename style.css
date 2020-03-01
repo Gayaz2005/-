@@ -1,0 +1,12 @@
+#logo , .button{
+    display:flex;
+}
+#header{
+    background-image: url(img/Layer13.png);
+}
+#logo{
+    float: left;
+}
+.button{
+    float: right;
+}
