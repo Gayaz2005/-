@@ -1,12 +1,14 @@
-#logo , .button{
-    display:flex;
+body{
+    font-family: Montserrat;
 }
-#header{
-    background-image: url(img/Layer13.png);
-}
-#logo{
-    float: left;
+#navigation{
+    display: flex;
 }
 .button{
-    float: right;
+    color: white;
+}
+
+#header{
+    background-image: url(/img/Layer13.png);
+    background-repeat: no-repeat;
 }
