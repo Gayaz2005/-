@@ -6,9 +6,20 @@ body{
 }
 .button{
     color: white;
+    text-decoration: none;
 }
-
+.button:hover{
+   border: black solid 3px;
+   background-color: black; 
+   border-radius: 3px;
+   
+}
 #header{
     background-image: url(/img/Layer13.png);
+    background-color: #c42112;
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
