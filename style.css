@@ -3,16 +3,17 @@ body{
 }
 #navigation{
     display: flex;
+    margin-left: 50px;
+    padding-top: 20px;
 }
 .button{
     color: white;
     text-decoration: none;
-    margin-left: 20px;
     
 }
 .button:hover{
-   padding: 3px;
-   background-color: black; 
+   padding: 2px;
+   background-color: #130e27; 
    border-radius: 3px;
    
 }
@@ -23,17 +24,35 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 800px;
     color: white;
 }
 h1{
     font-size: 100px;
+    line-height: 90px;
+}
+h2{
+    color: #130e27;
+    font-size: 50px;
 }
 #text{
     width:40%;
     margin-left: 100px;
 }
+#sell_car{
+    color:#130e27;
+}
+#our_service{
+    color: #c42112;
+}
 #service{
     display: flex;
-    
+}
+#Story{
+    background-color: #130e27;
+    color: white;
+    height: 80px;
+}
+#text_price{
+    text-align: center;
 }
