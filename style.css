@@ -7,19 +7,33 @@ body{
 .button{
     color: white;
     text-decoration: none;
+    margin-left: 20px;
+    
 }
 .button:hover{
-   border: black solid 3px;
+   padding: 3px;
    background-color: black; 
    border-radius: 3px;
    
 }
 #header{
     background-image: url(/img/Layer13.png);
-    background-color: #c42112;
+    background-color: #ff4838;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 700px;
+    color: white;
+}
+h1{
+    font-size: 100px;
+}
+#text{
+    width:40%;
+    margin-left: 100px;
+}
+#service{
+    display: flex;
     
 }
